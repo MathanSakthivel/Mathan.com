@@ -1,12 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mathan</title>
+  <title>Mathan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="script/fontAwesome.js"></script>
+  <script src="script/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-    Hey, I am Mathan!!
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll" style="background-color: black;">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mathan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hey, it's me Mathan</h2>
+                <p class="hero_desc">Technology Evangelist, Full Stack Developer</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> 
+                        Passionate Technology Evangelist with a demonstrated history of working in Edutech & IT Industry.<br>
+                        I love to solve problems, make things, see new places, learn new skills and have adventures.<br>
+                        Having experience working in 
+                        <ul>
+                            <li>Trainings across various Technologies</li>
+                            <li>Learning Platform Development</li>
+                            <li>Content Creation</li>
+                            <li>Certification Creations</li>
+                        </ul>
+                    </p>
+                    <div class="col-md-6">
+                        <h6>Expertise Technologies:</h6>
+                        <ul>
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>MongoDB</li>
+                            <li>Node Express</li>
+                            <li>React.js</li>
+                            <li>Angular</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Services</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Website Design</h4>
+                            <p class="card-text center-text mt-3">Designed Website Layout designs for vaious streams and applications using the following Tools.<br/>
+                                <img class="tools" src="./images/mock.png"><br/>
+                                <img class="tools" src="./images/bal.png"><br/>
+                                <img class="tools" src="./images/canva.jpg">
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Website Development</h4>
+                            <p class="card-text center-text mt-3">Developed Websites using the following Technologies.<br/>
+                                <img class="tools" src="./images/html.png"><br/>
+                                <img class="tools" src="./images/react.png"><br/>
+                                <img class="tools" src="./images/ang.png">
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Website Deployment</h4>
+                            <p class="card-text center-text mt-3">Deployed Websites using the following Technologies / Tools.<br/><br/>
+                                <img class="tools" src="./images/dev.png"><br/><br/>
+                                <img class="tools" src="./images/aws.png">
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/elearn.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Learning Platforms</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/game.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <br/>
+                            <h4 class="card-title" style="padding-bottom: 12px;">Game based Quiz Apps</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/content.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <br/>
+                            <h4 class="card-title" style="padding-bottom: 22px;">Technical Course Content</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4"></div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/heath.png" alt="Card image" style="    margin-left: 5em;                        width: 60%;">
+                        <div class="card-body">
+                            <h4 class="card-title">US-Based Health Care Application</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
 </body>
+
 </html>
